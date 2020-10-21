@@ -7,7 +7,7 @@ from os.path import isdir, isfile, join
 face_classifier = cv2.CascadeClassifier('classifier/haarcascade_frontalface_default.xml')
 
 
-frame_small,
+#frame_small,
 # 얼굴 검출
 def face_detector(img, size=0.5):
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
